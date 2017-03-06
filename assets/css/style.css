@@ -1,0 +1,17 @@
+.colored{
+    color: royalblue;
+}
+
+.left{
+    display: inline-block;
+    width: 49%;
+}
+
+.right{
+    display: inline-block;
+    width: 49%;
+}
+
+.text-center{
+    text-align: center;
+}

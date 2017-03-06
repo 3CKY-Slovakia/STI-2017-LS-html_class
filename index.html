@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- CHARSET -->
+    <meta charset="UTF-8">
+
+    <!-- PAGE TITLE -->
+    <title>HTML + CSS class</title>
+
+    <!-- META DATA -->
+    <meta name="Author"
+          content="3CKYSOFT- STI">
+    <meta name="Description"
+          content="A very easy tutorial for HTML beginners">
+    <meta name="Keywords"
+          content="html,tutorial,beginner,web design">
+
+    <!-- ICON -->
+    <link href="http://www.sti.expert/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div>
+    <h1>This is our first heading</h1>
+
+    <fieldset>
+        <legend>Fieldset</legend>
+        <h3>
+            Content og fieldset
+        </h3>
+
+        Our new list:
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+        </ul>
+
+        <p>
+            A bit of styling:
+            <br>
+            <br>
+            One man said: <q>It is <u>easy</u> to <i>lear</i>n <strong>HTML</strong></q>.
+        </p>
+    </fieldset>
+
+    <h2>
+        We'll try to align underlying video and audio sections using simple in-line CSS
+    </h2>
+
+    <div style="display: inline-block; width: 49%">
+        <fieldset>
+            <legend>Video example</legend>
+
+            <video width="320" height="240" controls>
+                <source src="assets/video/movie.mp4" type="video/mp4">
+                <source src="assets/video/movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </fieldset>
+    </div>
+
+    <div style="display: inline-block; width: 50%">
+        <fieldset>
+            <legend>Audio example</legend>
+
+            <audio controls>
+                <source src="assets/audio/horse.ogg" type="audio/ogg">
+                <source src="assets/audio/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </fieldset>
+    </div>
+
+    <h2 class="colored">
+        And now we'll depend on included external CSS files
+    </h2>
+
+    <div class="left text-center">
+        <fieldset>
+            <legend>Video example</legend>
+
+            <video width="320" height="240" controls>
+                <source src="assets/video/movie.mp4" type="video/mp4">
+                <source src="assets/video/movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </fieldset>
+    </div>
+
+    <div class="right text-center">
+        <fieldset>
+            <legend>Audio example</legend>
+
+            <audio controls>
+                <source src="assets/audio/horse.ogg" type="audio/ogg">
+                <source src="assets/audio/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </fieldset>
+    </div>
+
+</div>
+
+</body>
+</html>
